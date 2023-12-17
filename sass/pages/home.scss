@@ -26,22 +26,31 @@ body {
    background-repeat: no-repeat;
    background-position: center;
    min-height: 100vh;
+
+   &.container1 {
+      background-image: url("../../assets/home/01.jpg");
+   }
+
+   &.container2 {
+      background-image: url("../../assets/home/03.jpg");
+   }
+
+   &.container3 {
+      background-image: url("../../assets/home/02.gif");
+   }
+   &.container4 {
+      background-image: url("../../assets/home/04.jpg");
+   }
 }
 
-.container0.container1 {
-   background-image: url("../../assets/home/01.jpg");
+.shortTitle {
+   text-shadow: 0px 0px 2px #FF0444;
+   width: 550px;
 }
 
-.container0.container2 {
-   background-image: url("../../assets/home/03.jpg");
-}
-
-.container0.container3 {
-   background-image: url("../../assets/home/02.gif");
-}
-
-.container0.container4 {
-   background-image: url("../../assets/home/04.jpg");
+.mediumTitle {
+   text-shadow: 0px 0px 2px #FF0444;
+   width: 650px;
 }
 
 .imgLogo {
@@ -65,11 +74,11 @@ header {
 }
 
 .height-container {
-   height: 65vh;
+   height: 80vh;
 }
 
 .btn-plus {
-   padding: 15px 35px;
+   padding: $padding-button;
    margin-block: 50px;
 }
 
