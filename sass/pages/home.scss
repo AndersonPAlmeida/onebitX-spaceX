@@ -11,12 +11,6 @@ body {
    }
 }
 
-@media (min-width: 1400px) {
-   .container, .container-lg, .container-md, .container-sm, .container-xl {
-      max-width: 1320px;
-   }
-}
-
 body {
    background-color: $color-bg;
 }
@@ -92,10 +86,9 @@ header {
 
 footer  {
    height: 15vh;
-   ul {
-      gap: 20px;
-   }
-   li{
+   gap: 20px;
+  
+   span{
       text-transform: none;
       color: $hover-links;
    }
@@ -105,5 +98,42 @@ footer  {
       &:hover {
          color: $hover-links;
       }
+   }
+}
+
+@media (max-width: 750px) {
+   .shortTitle, .mediumTitle {
+     width: auto;
+     font-size: 50px;
+   }
+}
+
+@media (max-width: 414px) {
+   .logoPc {
+     width: 180px;
+   }
+
+   .shortTitle, .mediumTitle {
+      width: auto;
+      font-size: 30px;
+   }
+
+   footer {
+      font-size: 14px;
+   }
+}
+
+@media (max-width: 375px) {
+   .logoPc {
+      width: 150px;
+   }
+
+   .shortTitle, .mediumTitle {
+      width: auto;
+      font-size: 30px;
+   }
+
+   footer {
+      font-size: 10px;
    }
 }

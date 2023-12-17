@@ -9,11 +9,6 @@ body a {
   text-decoration: none !important;
 }
 
-@media (min-width: 1400px) {
-  .container, .container-lg, .container-md, .container-sm, .container-xl {
-    max-width: 1320px;
-  }
-}
 body {
   background-color: #000;
 }
@@ -81,11 +76,9 @@ header #navbarSupportedContent a:hover {
 
 footer {
   height: 15vh;
-}
-footer ul {
   gap: 20px;
 }
-footer li {
+footer span {
   text-transform: none;
   color: #B9B9B9;
 }
@@ -95,6 +88,37 @@ footer a {
 }
 footer a:hover {
   color: #B9B9B9;
+}
+
+@media (max-width: 750px) {
+  .shortTitle, .mediumTitle {
+    width: auto;
+    font-size: 50px;
+  }
+}
+@media (max-width: 414px) {
+  .logoPc {
+    width: 180px;
+  }
+  .shortTitle, .mediumTitle {
+    width: auto;
+    font-size: 30px;
+  }
+  footer {
+    font-size: 14px;
+  }
+}
+@media (max-width: 375px) {
+  .logoPc {
+    width: 150px;
+  }
+  .shortTitle, .mediumTitle {
+    width: auto;
+    font-size: 30px;
+  }
+  footer {
+    font-size: 10px;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
