@@ -23,6 +23,10 @@ body {
   background-image: url("../../assets/home/01.jpg");
 }
 
+.container0.container2 {
+  background-image: url("../../assets/home/03.jpg");
+}
+
 .imgLogo {
   width: 240px;
 }
