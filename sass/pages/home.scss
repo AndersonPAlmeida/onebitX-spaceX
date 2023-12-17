@@ -3,7 +3,12 @@ body {
       text-transform: uppercase;
       color: $color-text;
    }
-
+   ul li {
+      list-style: none;
+   }
+   a{
+      text-decoration: none !important;
+   }
 }
 
 @media (min-width: 1400px) {
@@ -73,5 +78,23 @@ header {
 
    img {
       width: 100%;
+   }
+}
+
+footer  {
+   height: 15vh;
+   ul {
+      gap: 20px;
+   }
+   li{
+      text-transform: none;
+      color: $hover-links;
+   }
+   a{
+      transition: color 0.5s;
+      text-transform: none;
+      &:hover {
+         color: $hover-links;
+      }
    }
 }
