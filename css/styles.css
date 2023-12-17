@@ -27,6 +27,10 @@ body {
   background-image: url("../../assets/home/03.jpg");
 }
 
+.container0.container3 {
+  background-image: url("../../assets/home/02.gif");
+}
+
 .imgLogo {
   width: 240px;
 }
