@@ -1,0 +1,39 @@
+body {
+   * {
+      text-transform: uppercase;
+      color: $color-text;
+   }
+   ul li {
+      list-style: none;
+   }
+   a{
+      text-decoration: none !important;
+   }
+}
+
+body {
+   background-color: $color-bg;
+}
+
+.container0 {
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   min-height: 100vh;
+}
+
+header {
+   font-size: 12px;
+   font-weight: bold;
+
+   #navbarSupportedContent {
+      a {
+         color: $color-text;
+         transition: color 0.5s;
+
+         &:hover {
+            color: $hover-links;
+         }
+      }
+   }
+}

@@ -19,6 +19,19 @@ body {
   background-position: center;
   min-height: 100vh;
 }
+
+header {
+  font-size: 12px;
+  font-weight: bold;
+}
+header #navbarSupportedContent a {
+  color: #FFF;
+  transition: color 0.5s;
+}
+header #navbarSupportedContent a:hover {
+  color: #B9B9B9;
+}
+
 .container0.container1 {
   background-image: url("../../assets/home/01.jpg");
 }
@@ -44,18 +57,6 @@ body {
 
 .imgLogo {
   width: 240px;
-}
-
-header {
-  font-size: 12px;
-  font-weight: bold;
-}
-header #navbarSupportedContent a {
-  color: #FFF;
-  transition: color 0.5s;
-}
-header #navbarSupportedContent a:hover {
-  color: #B9B9B9;
 }
 
 .height-container {
@@ -119,6 +120,47 @@ footer a:hover {
   footer {
     font-size: 10px;
   }
+}
+.container0.container5 {
+  background-image: url("../../assets/falcon9/01.jpg");
+}
+.container0.container7 {
+  background-image: url("../../assets/falcon9/02.jpg");
+}
+
+.container .titleContainer5 {
+  height: 80vh;
+  text-align: center;
+}
+.container .titleContainer5 p {
+  text-shadow: 0px 0px 2px #FF0444;
+}
+.container .titleContainer5 .h1 {
+  font-size: 90px;
+}
+.container .titleContainer5 .h5 {
+  font-size: 20px;
+}
+
+.container6 {
+  min-height: 40vh;
+}
+.container6 .numbers .h1 {
+  font-size: 90px;
+}
+.container6 .numbers .h5 {
+  font-size: 18px;
+}
+
+.container .titleContainer7 {
+  height: 100vh;
+  margin-block: auto;
+}
+.container .titleContainer7 p {
+  max-width: 650px;
+  text-transform: none;
+  font-size: 22px;
+  line-height: 50px;
 }
 
 /*# sourceMappingURL=styles.css.map */

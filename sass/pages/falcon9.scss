@@ -1,0 +1,50 @@
+.container0 {
+   &.container5 {
+      background-image: url("../../assets/falcon9/01.jpg");
+   }
+
+   &.container7 {
+      background-image: url("../../assets/falcon9/02.jpg");
+   }
+}
+
+.container .titleContainer5 {
+   height: 80vh;
+   text-align: center;
+
+   p {
+      text-shadow: 0px 0px 2px #FF0444;
+   }
+
+   .h1 {
+      font-size: 90px;
+   }
+
+   .h5 {
+      font-size: 20px;
+   }
+}
+
+.container6 {
+   min-height: 40vh;
+
+   .numbers {
+      .h1 {
+         font-size: 90px;
+      }
+      .h5 {
+         font-size: 18px;
+      }
+   }
+}
+
+.container .titleContainer7 {
+   height: 100vh;
+   margin-block: auto;
+   p {
+      max-width: 650px;
+      text-transform: none;
+      font-size: 22px;
+      line-height: 50px;
+   }
+}
